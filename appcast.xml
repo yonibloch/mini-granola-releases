@@ -6,6 +6,26 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.14</title>
+            <pubDate>Fri, 17 Apr 2026 18:15:00 +0000</pubDate>
+            <sparkle:version>0.9.14</sparkle:version>
+            <sparkle:shortVersionString>0.9.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Per-segment voice re-check + SystemAudioBridge race fix</h3>
+                <ul>
+                <li>New: per-segment voice embedding re-check — catches longer (&gt;0.5s) diarizer misattributions that the splitter-level smoothing in v0.9.13 couldn't help with. Use Re-process on older recordings to apply.</li>
+                <li>Phase-2 race condition fix in SystemAudioBridge — replaced NSLock with a serial dispatch queue; eliminates four concurrency bugs flagged in earlier reviews.</li>
+                <li>Silent I/O errors in system-audio WAV writes now surface via OSLog.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.14/MiniGranola-v0.9.14.dmg"
+                length="5364483"
+                type="application/octet-stream"
+                sparkle:edSignature="1hUibyYhKH9AGzGlmqoT1IYeSEf+08izABYFGIR1hzlBXnZ6UAHgM1FnIZyIvLu4gmqpFO/w14F2mGHd8EfPBg==" />
+        </item>
+        <item>
             <title>Version 0.9.13</title>
             <pubDate>Fri, 17 Apr 2026 17:30:00 +0000</pubDate>
             <sparkle:version>0.9.13</sparkle:version>
@@ -13,7 +33,6 @@
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h3>Mid-sentence diarization flicker fix</h3>
-                <p>Transcripts no longer split single utterances between multiple speakers mid-sentence.</p>
                 <ul>
                 <li>BleedFilter.splitBySpeaker absorbs short (&lt;0.5s) diar flickers into the neighbor speaker before splitting text</li>
                 <li>EENDVCPipeline.mergeAndClean duration floor tightened 0.1s → 0.3s</li>
@@ -35,14 +54,6 @@
             <description><![CDATA[
                 <h3>Sparkle integration + Soniox streaming + audio hardening</h3>
                 <p>Foundational release — transitioning to the Sparkle update framework.</p>
-                <ul>
-                <li>Soniox upload now streams from disk (no RAM spike on long meetings)</li>
-                <li>Retry with exponential backoff on transient network errors</li>
-                <li>Upload progress UI</li>
-                <li>Mic config-change handling (AirPods, USB, device swap)</li>
-                <li>Lid-close now stops recording cleanly</li>
-                <li>Fewer silent I/O failures</li>
-                </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.12/MiniGranola-v0.9.12.dmg"
