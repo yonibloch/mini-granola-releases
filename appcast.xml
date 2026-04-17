@@ -22,9 +22,9 @@
             ]]></description>
             <enclosure
                 url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.13/MiniGranola-v0.9.13.dmg"
-                length="5349316"
+                length="5351228"
                 type="application/octet-stream"
-                sparkle:edSignature="WdMV3FAN6G4l9/HNPIWhAZZ+ZS4Tw4ZDU5Eebq8dBodFCGE4oE7BjmxgU7xCucrYxksyAip9PiWx5dJoJUKSAQ==" />
+                sparkle:edSignature="KJSR/kFYoIjKfZJTxEDQwa5CB5ktU/81lerGtaeXQ7mUdTKhkCfA5aXWZVfH+qL6ibKsDWIzlUgqgP6ces9kCg==" />
         </item>
         <item>
             <title>Version 0.9.12</title>
