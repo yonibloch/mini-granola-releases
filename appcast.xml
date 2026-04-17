@@ -6,6 +6,27 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.13</title>
+            <pubDate>Fri, 17 Apr 2026 17:30:00 +0000</pubDate>
+            <sparkle:version>0.9.13</sparkle:version>
+            <sparkle:shortVersionString>0.9.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Mid-sentence diarization flicker fix</h3>
+                <p>Transcripts no longer split single utterances between multiple speakers mid-sentence.</p>
+                <ul>
+                <li>BleedFilter.splitBySpeaker absorbs short (&lt;0.5s) diar flickers into the neighbor speaker before splitting text</li>
+                <li>EENDVCPipeline.mergeAndClean duration floor tightened 0.1s → 0.3s</li>
+                <li>New "Re-process" menu item per recording for cleaning up pre-existing transcripts</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.13/MiniGranola-v0.9.13.dmg"
+                length="5349316"
+                type="application/octet-stream"
+                sparkle:edSignature="WdMV3FAN6G4l9/HNPIWhAZZ+ZS4Tw4ZDU5Eebq8dBodFCGE4oE7BjmxgU7xCucrYxksyAip9PiWx5dJoJUKSAQ==" />
+        </item>
+        <item>
             <title>Version 0.9.12</title>
             <pubDate>Fri, 17 Apr 2026 13:03:40 +0000</pubDate>
             <sparkle:version>0.9.12</sparkle:version>
