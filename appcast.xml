@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Mini-Granola Updates</title>
+        <link>https://github.com/yonibloch/mini-granola-releases/raw/main/appcast.xml</link>
+        <description>Release notes for Mini-Granola</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.9.12</title>
+            <pubDate>Fri, 17 Apr 2026 13:03:40 +0000</pubDate>
+            <sparkle:version>0.9.12</sparkle:version>
+            <sparkle:shortVersionString>0.9.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Sparkle integration + Soniox streaming + audio hardening</h3>
+                <p>Foundational release — transitioning to the Sparkle update framework.</p>
+                <ul>
+                <li>Soniox upload now streams from disk (no RAM spike on long meetings)</li>
+                <li>Retry with exponential backoff on transient network errors</li>
+                <li>Upload progress UI</li>
+                <li>Mic config-change handling (AirPods, USB, device swap)</li>
+                <li>Lid-close now stops recording cleanly</li>
+                <li>Fewer silent I/O failures</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.12/MiniGranola-v0.9.12.dmg"
+                length="5342276"
+                type="application/octet-stream"
+                sparkle:edSignature="4OhLuq05AD1mAvqrqW4uoDIh2DNwG/S8WsC+H7vS7Dy2RM/+U7GbIBpmlGbaJkg91lS0OFuu7ZNHgVVE6/hoCw==" />
+        </item>
+    </channel>
+</rss>
