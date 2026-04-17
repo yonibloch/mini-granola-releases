@@ -6,6 +6,28 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.15</title>
+            <pubDate>Fri, 17 Apr 2026 19:00:00 +0000</pubDate>
+            <sparkle:version>0.9.15</sparkle:version>
+            <sparkle:shortVersionString>0.9.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Menu bar popover UI refresh</h3>
+                <ul>
+                <li>New SwiftUI popover replaces the old NSMenu — live recording cell with breathing waveform, REC pill, mono timer</li>
+                <li>Status-bar icon animates as a 5-bar waveform during recording</li>
+                <li>Recent meeting rows: left-click opens transcript, right-click for context menu, red badge opens Tag Speakers</li>
+                <li>Dark mode supported. Activity log moved to Settings.</li>
+                </ul>
+                <p>Carries forward v0.9.14's voice re-check and SystemAudioBridge race fix.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.15/MiniGranola-v0.9.15.dmg"
+                length="5495070"
+                type="application/octet-stream"
+                sparkle:edSignature="s5KB/stQZdK/H6fkwDR30nbk1VrbX6eh5mgHQAaEhJYdUT5ePy7N/Um8QQSiwKa0OHUgK4omb8QbJcw0tfpJCA==" />
+        </item>
+        <item>
             <title>Version 0.9.14</title>
             <pubDate>Fri, 17 Apr 2026 18:15:00 +0000</pubDate>
             <sparkle:version>0.9.14</sparkle:version>
@@ -14,9 +36,8 @@
             <description><![CDATA[
                 <h3>Per-segment voice re-check + SystemAudioBridge race fix</h3>
                 <ul>
-                <li>New: per-segment voice embedding re-check — catches longer (&gt;0.5s) diarizer misattributions that the splitter-level smoothing in v0.9.13 couldn't help with. Use Re-process on older recordings to apply.</li>
-                <li>Phase-2 race condition fix in SystemAudioBridge — replaced NSLock with a serial dispatch queue; eliminates four concurrency bugs flagged in earlier reviews.</li>
-                <li>Silent I/O errors in system-audio WAV writes now surface via OSLog.</li>
+                <li>Per-segment voice embedding re-check — catches longer (&gt;0.5s) diarizer misattributions</li>
+                <li>Phase-2 race condition fix in SystemAudioBridge — replaced NSLock with a serial dispatch queue</li>
                 </ul>
             ]]></description>
             <enclosure
@@ -31,14 +52,7 @@
             <sparkle:version>0.9.13</sparkle:version>
             <sparkle:shortVersionString>0.9.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>Mid-sentence diarization flicker fix</h3>
-                <ul>
-                <li>BleedFilter.splitBySpeaker absorbs short (&lt;0.5s) diar flickers into the neighbor speaker before splitting text</li>
-                <li>EENDVCPipeline.mergeAndClean duration floor tightened 0.1s → 0.3s</li>
-                <li>New "Re-process" menu item per recording for cleaning up pre-existing transcripts</li>
-                </ul>
-            ]]></description>
+            <description><![CDATA[Mid-sentence diarization flicker fix]]></description>
             <enclosure
                 url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.13/MiniGranola-v0.9.13.dmg"
                 length="5351228"
@@ -51,10 +65,7 @@
             <sparkle:version>0.9.12</sparkle:version>
             <sparkle:shortVersionString>0.9.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>Sparkle integration + Soniox streaming + audio hardening</h3>
-                <p>Foundational release — transitioning to the Sparkle update framework.</p>
-            ]]></description>
+            <description><![CDATA[Sparkle integration + Soniox streaming + audio hardening]]></description>
             <enclosure
                 url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.12/MiniGranola-v0.9.12.dmg"
                 length="5342276"
