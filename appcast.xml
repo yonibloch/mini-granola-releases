@@ -6,6 +6,23 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.21</title>
+            <pubDate>Sat, 18 Apr 2026 12:45:12 +0000</pubDate>
+            <sparkle:version>0.9.21</sparkle:version>
+            <sparkle:shortVersionString>0.9.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Transcript reader: Copy button</h3>
+                <p>Copy the full markdown transcript to your clipboard with one click — button lives at the top-right of the transcript window. Pasting into Slack, docs, or notes produces the same content the reader shows.</p>
+                <p>Also added a greyed-out <b>Summarize</b> button as a placeholder for an upcoming LLM-powered meeting-summary feature.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.21/MiniGranola-v0.9.21.dmg"
+                length="5756147"
+                type="application/octet-stream"
+                sparkle:edSignature="RovdbZ76PORJkVkX9BHQOpSu2xbfQuUJs7oq9sE3dkThseZOXB3cPBzKPRuagXWULwAEXRpvD9b14LaJV5VNAw==" />
+        </item>
+        <item>
             <title>Version 0.9.20</title>
             <pubDate>Sat, 18 Apr 2026 12:08:14 +0000</pubDate>
             <sparkle:version>0.9.20</sparkle:version>
