@@ -6,6 +6,22 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.20</title>
+            <pubDate>Sat, 18 Apr 2026 12:08:14 +0000</pubDate>
+            <sparkle:version>0.9.20</sparkle:version>
+            <sparkle:shortVersionString>0.9.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Transcript reader: ⌘W closes the window</h3>
+                <p>The in-app transcript reader promised ⌘W as a close shortcut but the keystroke did nothing. Now works as expected — ⌘W closes the focused transcript window, same as clicking the red traffic-light button.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.20/MiniGranola-v0.9.20.dmg"
+                length="5740408"
+                type="application/octet-stream"
+                sparkle:edSignature="YaBo8TEwdcPD5KKKezD96vnJozKGEhg+iOpyHXX8BFyEAMZpVbjuZf6/dxRvQ3a6H5UOKI0RSgFuhKJ7tUXuBw==" />
+        </item>
+        <item>
             <title>Version 0.9.19</title>
             <pubDate>Sat, 18 Apr 2026 03:08:52 +0000</pubDate>
             <sparkle:version>0.9.19</sparkle:version>
