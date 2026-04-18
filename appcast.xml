@@ -6,6 +6,29 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.16</title>
+            <pubDate>Sat, 18 Apr 2026 01:41:34 +0000</pubDate>
+            <sparkle:version>0.9.16</sparkle:version>
+            <sparkle:shortVersionString>0.9.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Mini Granola UI redesign</h3>
+                <ul>
+                <li>Floating HUD rewrite — app-themed icon block (Zoom/Meet/Slack/Teams), animated countdown bar, ⏎/esc kbd hints, "Transcript ready" HUD replaces silent banner notifications</li>
+                <li>Settings window — sidebar + seven tabs (Recording, Transcription, Speakers, Shortcuts, Calendar, AI Naming, About). API-key drafts persist across tab switches.</li>
+                <li>Tagging window — card layout with italic sample quote and animated waveform</li>
+                <li>In-app transcript reader — multi-window, proportional word highlighting during playback, 80-bar scrub waveform, smart auto-scroll (pauses while you scroll)</li>
+                <li>Light mode with new warm-terracotta palette. Settings → About → Appearance lets you pick Auto / Light / Dark.</li>
+                </ul>
+                <p>Dark mode renders as before — the new palette only kicks in when the system is light.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.16/MiniGranola-v0.9.16.dmg"
+                length="5729290"
+                type="application/octet-stream"
+                sparkle:edSignature="qHPIdZpAhOF4ikCTbm2BN+medg5RCKUgeL7PWNEUUTm8AaEFGttN6v+kg7hzVoFm2JfgYrsz4ZADS0yCd8OtBw==" />
+        </item>
+        <item>
             <title>Version 0.9.15</title>
             <pubDate>Fri, 17 Apr 2026 19:00:00 +0000</pubDate>
             <sparkle:version>0.9.15</sparkle:version>
