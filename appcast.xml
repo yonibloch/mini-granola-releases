@@ -6,6 +6,29 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.19</title>
+            <pubDate>Sat, 18 Apr 2026 03:08:52 +0000</pubDate>
+            <sparkle:version>0.9.19</sparkle:version>
+            <sparkle:shortVersionString>0.9.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Google Meet &amp; Microsoft Teams web auto-detection</h3>
+                <ul>
+                <li>Automatic meeting detection now covers Google Meet and Microsoft Teams web in Chrome, Arc, and Safari — no more recording only on Zoom.</li>
+                <li>Works regardless of which tab has focus — we enumerate every tab, so a Meet call in a background tab is still picked up.</li>
+                <li>Gated on the system-wide microphone-in-use signal (the same one lighting the orange mic dot in the menu bar), so stale tabs, lobby screens, and "created a link but didn't join" states don't trigger a false recording.</li>
+                <li>Faster time-to-first-detection: activating a browser now triggers a fast-poll burst, so meetings are picked up within ~9 seconds instead of up to 45.</li>
+                <li>Transcript-ready HUD no longer visually stacks with the macOS notification banner — banner goes to Notification Center only, HUD handles the on-screen CTA.</li>
+                </ul>
+                <p>Zoom detection unchanged. Native Microsoft Teams app is still on the old heuristic — next up.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.19/MiniGranola-v0.9.19.dmg"
+                length="5736927"
+                type="application/octet-stream"
+                sparkle:edSignature="8OK8bLQ/bKNykNQV94y6VeGNsuJ3oAlRNu4ia5Fk5uzQrRQjFYg74iKfmNNp+qSqZZGPNrHToHf/Ctb+LbvzCg==" />
+        </item>
+        <item>
             <title>Version 0.9.16</title>
             <pubDate>Sat, 18 Apr 2026 01:41:34 +0000</pubDate>
             <sparkle:version>0.9.16</sparkle:version>
