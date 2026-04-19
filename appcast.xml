@@ -6,6 +6,33 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.22</title>
+            <pubDate>Sun, 19 Apr 2026 01:57:41 +0000</pubDate>
+            <sparkle:version>0.9.22</sparkle:version>
+            <sparkle:shortVersionString>0.9.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>New Meeting Library</h3>
+                <ul>
+                <li>Full-history browsable meeting library with search, 4 filter chips (All / This week / Month / Needs tagging), date-grouped list, and a detail pane with action buttons</li>
+                <li>Open it anytime with <b>⌘L</b>, or via the menu-bar popover's new "See all →" link</li>
+                <li>Copy button in the detail pane puts the full markdown transcript on your clipboard</li>
+                <li>Import audio lives as a native button in the titlebar</li>
+                <li>Action row buttons: Open transcript, Tag speakers, Copy, Summarize (coming soon), Reveal in Finder</li>
+                </ul>
+                <h3>Copy, paste, select-all now work everywhere</h3>
+                <p>Added a real macOS main menu, so <b>⌘C / ⌘V / ⌘A / ⌘X / ⌘Z</b> finally work in every text field across the app. Previously these shortcuts had no handler because menu-bar-only apps don't get a menu by default.</p>
+                <h3>Warm palette in dark mode</h3>
+                <p>Dark-mode surfaces are now a proper warm dark-brown (<code>#232120</code>) with warm off-white text, matching the light-mode terracotta aesthetic. No more system-blue accent leaks or cool-gray backgrounds.</p>
+                <p>Reveal-in-Finder now selects the session folder in its parent window (instead of opening the folder itself) — matches what the menu item says.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.22/MiniGranola-v0.9.22.dmg"
+                length="5917236"
+                type="application/octet-stream"
+                sparkle:edSignature="hdPmyxxpqQtYAvS4gDrxfHXNoABTl6uWjFWZ8KTVgMaXcMiUwH3ad1q+fPC+EmuepzG9PEUcTzzAgju4l/cSAA==" />
+        </item>
+        <item>
             <title>Version 0.9.21</title>
             <pubDate>Sat, 18 Apr 2026 12:45:12 +0000</pubDate>
             <sparkle:version>0.9.21</sparkle:version>
