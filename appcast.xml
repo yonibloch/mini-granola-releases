@@ -6,6 +6,23 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.24.1</title>
+            <pubDate>Mon, 20 Apr 2026 17:24:54 +0000</pubDate>
+            <sparkle:version>0.9.24.1</sparkle:version>
+            <sparkle:shortVersionString>0.9.24.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Reader titlebar sync</h3>
+                <p>Point release fixing a stale titlebar in the Transcript Reader. When v0.9.24's meeting-name propagation kicked in (renaming <code>SPEAKER_01</code> → "Gilad Bright" updates the meeting title in <code>meta.json</code>), the reader's body header refreshed correctly but the macOS titlebar at the very top of the window stayed frozen at the original ingest-time name until you closed and reopened the reader.</p>
+                <p>Now the NSWindow titlebar also tracks <code>meta.meeting_name</code> and updates live when any edit from the Speaker Editor changes it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.24.1/MiniGranola-v0.9.24.1.dmg"
+                length="6283281"
+                type="application/octet-stream"
+                sparkle:edSignature="pbx5N/Y9709lhqZik/PbIdBPQnrF63POqWlkUMBu2KP3HAvMmhx05xKsxU/zjIfKL4eCc+OQU/Xcjnt2Gb0lDQ==" />
+        </item>
+        <item>
             <title>Version 0.9.24</title>
             <pubDate>Mon, 20 Apr 2026 16:05:20 +0000</pubDate>
             <sparkle:version>0.9.24</sparkle:version>
