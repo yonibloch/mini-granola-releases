@@ -6,6 +6,34 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.24</title>
+            <pubDate>Mon, 20 Apr 2026 16:05:20 +0000</pubDate>
+            <sparkle:version>0.9.24</sparkle:version>
+            <sparkle:shortVersionString>0.9.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Speaker Editor — full redesign</h3>
+                <ul>
+                <li><b>New Speaker Editor window</b> — standalone 680×560 resizable window, reachable from the Meeting Library, the Transcript Reader toolbar, the menu-bar popover, and the post-recording HUD. Replaces the old 460×440 tagging card.</li>
+                <li><b>Focus mode</b> for unknown speakers — one-at-a-time expanded card with XL avatar, 5-second audio sample, transcript excerpt, name field, and library suggestions (top 3 from your voice library, ranked by sample count). Save / Skip / "See all speakers" escape hatch.</li>
+                <li><b>Full-list mode</b> for review — every speaker in the session with status pill (Me / Enrolled / Unknown), speaking-time bar, hover actions, and right-click menu (Rename, Assign to library, Merge, Mark as non-speech, Remove).</li>
+                <li><b>Suggestion chips</b> — typing a name that matches someone in your library auto-assigns the existing voice profile instead of creating a new one.</li>
+                <li><b>Post-toast undo</b> — the 5-second toast Undo now has a persistent sibling: an inline "Undo: {edit}" hint in the editor footer that stays until you revert or close. <b>⌘Z</b> reverts the most recent speaker edit (LIFO; native text-undo in text fields is unaffected).</li>
+                </ul>
+                <h3>Non-speech segments are visible in the Reader</h3>
+                <p>When you mark a speaker as non-speech, those segments no longer disappear — they render muted (faded, italic, <code>[non-speech]</code> prefix) with a speaker-slash avatar and a clean "Non-speech" label. Still excluded from the Markdown export and the speaker chip row. Easier to audit what you muted and un-mark anything you flagged by mistake.</p>
+                <h3>Dock icon + Cmd-Tab on demand</h3>
+                <p>Mini-Granola stays a menu-bar-only app at rest. As soon as you open any real window (Meeting Library, Transcript Reader, Speaker Editor, Settings), the app promotes: Dock icon appears, Cmd-Tab finds it, Mission Control sees its windows. Close the last window and it drops back to menu-bar-only.</p>
+                <h3>Meeting titles update when you rename a speaker</h3>
+                <p>Renaming <code>SPEAKER_01</code> to "Gilad Bright" now propagates into the meeting name (Reader window title, Library row). Previously the segments updated but the title stayed frozen at the unresolved label.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.24/MiniGranola-v0.9.24.dmg"
+                length="6281390"
+                type="application/octet-stream"
+                sparkle:edSignature="NDGYcNxjAxOxXq+/pDrKnWt0gOj7gPRA6vA6IGzUJoNMcP7tdKttQRDrKBnrjuEd5phVcVDDikcYgttj0m3LCg==" />
+        </item>
+        <item>
             <title>Version 0.9.22</title>
             <pubDate>Sun, 19 Apr 2026 01:57:41 +0000</pubDate>
             <sparkle:version>0.9.22</sparkle:version>
