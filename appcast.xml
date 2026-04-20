@@ -6,6 +6,23 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.24.2</title>
+            <pubDate>Mon, 20 Apr 2026 18:08:26 +0000</pubDate>
+            <sparkle:version>0.9.24.2</sparkle:version>
+            <sparkle:shortVersionString>0.9.24.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Speaker Editor title sync</h3>
+                <p>Follow-up to v0.9.24.1. The reader got its titlebar sync last release; the Speaker Editor had the same bug in two places — the NSWindow titlebar and the session header in the editor body both read the meeting name once at open and never refreshed. So renaming a speaker that changed the meeting title (e.g. <code>SPEAKER_01</code> → "Gilad Bright") updated the transcript, the speaker chips, and the Meeting Library row, but left the editor's own chrome stuck on the old name until you closed and reopened the editor.</p>
+                <p>Both now track <code>meta.meeting_name</code> live, via the same pattern as the reader. Also audited the Meeting Library window — no bug there; its title is static and row/detail labels already refresh from RecentMeetingsStore.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.24.2/MiniGranola-v0.9.24.2.dmg"
+                length="6284470"
+                type="application/octet-stream"
+                sparkle:edSignature="VYeNOfxlu4P8GldqFH7SFpHQRUahc9vseTwyKUlwky3s3vqk83M1kmYDdtItnfM7jhq9eCFYTCUsOtTXKoamBg==" />
+        </item>
+        <item>
             <title>Version 0.9.24.1</title>
             <pubDate>Mon, 20 Apr 2026 17:24:54 +0000</pubDate>
             <sparkle:version>0.9.24.1</sparkle:version>
