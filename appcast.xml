@@ -6,6 +6,37 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.25</title>
+            <pubDate>Mon, 20 Apr 2026 21:00:00 +0000</pubDate>
+            <sparkle:version>0.9.25</sparkle:version>
+            <sparkle:shortVersionString>0.9.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Speakers Library</h3>
+                <p>The <b>Speakers</b> tab moves out of Settings into a standalone library window. Every known voice gets real real estate: hero card, last-heard grouping, full-width voice sample, and a visual fingerprint.</p>
+                <h4>Getting there</h4>
+                <ul>
+                <li>Menubar popover → <b>Speakers Library…</b> (new row between Recent meetings and Settings).</li>
+                <li><b>⌘⇧S</b> from anywhere with Mini-Granola frontmost.</li>
+                <li><b>Right-click any speaker chip</b> in a transcript → "Open in Speakers Library". The chip labeled "Me" resolves to your real voice profile (matched via your macOS full name).</li>
+                <li>Deep link <code>minigranola://speakers/{id}</code> for inter-app automation.</li>
+                </ul>
+                <h4>What's in the window</h4>
+                <ul>
+                <li><b>Left pane</b> — search (<b>⌘F</b> to focus), filter chips (All / Recent), speakers grouped by last-heard recency (Heard today, Yesterday, This week, This month, Earlier).</li>
+                <li><b>Right pane</b> — hero (avatar + name + "You" pill for your own profile + samples × meetings × minutes-heard meta), action bar (Rename, Forget voice), voice samples section, and a decorative voice fingerprint strip.</li>
+                </ul>
+                <p>This ship keeps rename + forget single-profile — they update the voice store, same semantics as the old Settings tab. Past meeting transcripts keep their existing labels. <b>v0.9.25-A2</b> (coming next) makes those cross-session: rename updates every past meeting's transcript + title, forget runs a 7-second-undo cascade across all sessions.</p>
+                <p>Cold-launch deep links now work — URLs that arrive before the app finishes launching queue up and fire once dependencies are wired.</p>
+                <p>The Settings → Speakers tab is deleted. All that functionality (rename, forget, play sample) is in the library window now.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.25/MiniGranola-v0.9.25.dmg"
+                length="6474215"
+                type="application/octet-stream"
+                sparkle:edSignature="0TEcYe3eQZcTDtd5WDJQGGaOTjs5LZmr1imarSqRYcjbGMuHUVmi2MkhZP3uoUr/1S/SSQSghgCgs9V2OzM9BQ==" />
+        </item>
+        <item>
             <title>Version 0.9.24.2</title>
             <pubDate>Mon, 20 Apr 2026 18:08:26 +0000</pubDate>
             <sparkle:version>0.9.24.2</sparkle:version>
