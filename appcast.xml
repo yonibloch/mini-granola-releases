@@ -6,6 +6,25 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.31</title>
+            <pubDate>Tue, 21 Apr 2026 18:00:00 +0000</pubDate>
+            <sparkle:version>0.9.31</sparkle:version>
+            <sparkle:shortVersionString>0.9.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.31 — exact word-level sync in the Transcript Reader</h3>
+                <ul>
+                    <li><b>The highlighted word now tracks the actual audio.</b> Previously the reader interpolated word position linearly across each segment's duration. On long continuous speech (Hebrew Zoom calls with 15–21-second segments), the cursor drifted several words off by mid-segment. Now we preserve Soniox's per-token timestamps and binary-search for the exact token being spoken at the current playback time.</li>
+                    <li><b>Backward-compat preserved</b> — pre-v0.9.31 sessions fall back to the old linear scheme; new Soniox sessions get the exact sync. WhisperKit sessions are unchanged (no per-token timing available from that backend yet).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.31/MiniGranola-v0.9.31.dmg"
+                length="8109950"
+                type="application/octet-stream"
+                sparkle:edSignature="+Qauyq9GOpsiNcYuX32nJI1s69Th2dBahB59P2QToLeCZi4pCtH3p+imdcW/4RyXpgeoPADdTNCr7OwMMwYrDw==" />
+        </item>
+        <item>
             <title>Version 0.9.30</title>
             <pubDate>Tue, 21 Apr 2026 17:43:38 +0000</pubDate>
             <sparkle:version>0.9.30</sparkle:version>
