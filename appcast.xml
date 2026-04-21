@@ -6,6 +6,24 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.32</title>
+            <pubDate>Tue, 21 Apr 2026 18:20:00 +0000</pubDate>
+            <sparkle:version>0.9.32</sparkle:version>
+            <sparkle:shortVersionString>0.9.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.32 — upgrade old sessions to word-level sync</h3>
+                <ul>
+                    <li><b>Upgrade banner in the Transcript Reader.</b> Old Soniox recordings that predate v0.9.31's exact word sync now show a one-line banner with a Re-process button — ~2 minutes per session, speaker labels preserved.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.32/MiniGranola-v0.9.32.dmg"
+                length="8126320"
+                type="application/octet-stream"
+                sparkle:edSignature="FZ6BAwtRv3tbEfuh95ID8Psx99TVyzAa+0pehkoQcI35Xj/5uF0I4REagWEmCD3ImLywh0cOHmaS0L8xKGERAg==" />
+        </item>
+        <item>
             <title>Version 0.9.31</title>
             <pubDate>Tue, 21 Apr 2026 18:00:00 +0000</pubDate>
             <sparkle:version>0.9.31</sparkle:version>
