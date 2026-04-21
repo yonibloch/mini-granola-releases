@@ -6,6 +6,26 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.28</title>
+            <pubDate>Tue, 21 Apr 2026 11:05:00 +0000</pubDate>
+            <sparkle:version>0.9.28</sparkle:version>
+            <sparkle:shortVersionString>0.9.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.28 — sample-trust fix + icon re-render</h3>
+                <ul>
+                    <li><b>Play sample plays the right audio</b> — the Speaker Editor now picks longer, later sample turns so you hear the stable mid-session portion of a speaker&apos;s voice instead of an early mis-clustered segment.</li>
+                    <li><b>Play tooltip</b> shows the turn&apos;s text + timestamp on hover, so you can see what you&apos;ll hear before clicking.</li>
+                    <li><b>Dock icon renders edge-to-edge</b> — fixed the transparent border that caused macOS to show a grey canvas around the icon.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.28/MiniGranola-v0.9.28.dmg"
+                length="8025551"
+                type="application/octet-stream"
+                sparkle:edSignature="826bsAbfS8rGr3cwneyRyuq82/lHYYM6qzyia+ah8ekVnmMN0Uu6a/xL4ZHsoKmzFrFIzRpUjxdPjGbr8bmbDw==" />
+        </item>
+        <item>
             <title>Version 0.9.27</title>
             <pubDate>Tue, 21 Apr 2026 08:20:00 +0000</pubDate>
             <sparkle:version>0.9.27</sparkle:version>
