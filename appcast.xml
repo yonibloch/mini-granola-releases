@@ -6,6 +6,22 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.33</title>
+            <pubDate>Tue, 21 Apr 2026 18:30:00 +0000</pubDate>
+            <sparkle:version>0.9.33</sparkle:version>
+            <sparkle:shortVersionString>0.9.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.33 — you'll actually see update alerts now</h3>
+                <p>Mini Granola runs as a menubar app with no windows most of the time. Sparkle's default background-update dialog was opening behind everything and quietly vanishing. This release implements Sparkle's gentle-reminders protocol: when an update is available, you'll get a proper macOS notification ("Mini Granola update available") with an Install button that brings the update dialog to the front. No more silently missing updates.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.33/MiniGranola-v0.9.33.dmg"
+                length="8131125"
+                type="application/octet-stream"
+                sparkle:edSignature="7RxousSs4IhXopxkds1+ZTfJ+yADZoi64wjvMMQF9PZ4mUrLwLuf4wDGAaOJakAtUk8QrjCIxrGE9ZwE6cndAw==" />
+        </item>
+        <item>
             <title>Version 0.9.32</title>
             <pubDate>Tue, 21 Apr 2026 18:20:00 +0000</pubDate>
             <sparkle:version>0.9.32</sparkle:version>
