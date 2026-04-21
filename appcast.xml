@@ -6,6 +6,30 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.27</title>
+            <pubDate>Tue, 21 Apr 2026 08:20:00 +0000</pubDate>
+            <sparkle:version>0.9.27</sparkle:version>
+            <sparkle:shortVersionString>0.9.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.27 — Speaker Editor inline tag row + fresh dock icon</h3>
+                <p>Tagging unknown speakers got a big upgrade. Clicking the pencil on an unknown speaker expands an inline row with everything you need in one place.</p>
+                <ul>
+                    <li><b>Inline tag row</b> — transcript quote + play sample + TextField + Skip + Save + up to 3 smart chips, all in one tidy block.</li>
+                    <li><b>Smart chip recency</b> — library suggestions sort by &quot;most recently tagged across any session.&quot;</li>
+                    <li><b>Implicit merge on exact match</b> — typing a library user&apos;s name exactly routes to assign-to-library.</li>
+                    <li><b>Skip session-state</b> — skip all unknowns and the banner disappears with an Undo toast.</li>
+                    <li><b>Tab / Shift-Tab</b> navigate the unknown queue without leaving the keyboard.</li>
+                    <li><b>Fresh dock icon</b> — frosted-blue granola jar and wooden spoon.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.27/MiniGranola-v0.9.27.dmg"
+                length="9119947"
+                type="application/octet-stream"
+                sparkle:edSignature="3nDpm1FCIwSDL7+FcfiCzjkD2mVoX0iHJeLuhl7S77+AgxlwHdITDD1a562r+5GX502mAd5WQiWkneM/O13MAg==" />
+        </item>
+        <item>
             <title>Version 0.9.26</title>
             <pubDate>Tue, 21 Apr 2026 00:17:10 +0000</pubDate>
             <sparkle:version>0.9.26</sparkle:version>
