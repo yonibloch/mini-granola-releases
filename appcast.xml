@@ -6,6 +6,26 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.30</title>
+            <pubDate>Tue, 21 Apr 2026 17:43:38 +0000</pubDate>
+            <sparkle:version>0.9.30</sparkle:version>
+            <sparkle:shortVersionString>0.9.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.30 — session repair + ghost rows + diagnostics</h3>
+                <ul>
+                    <li><b>Speakers Library shows ghost rows</b> — speakers whose profile was renamed or deleted now appear greyed-out (&quot;unenrolled&quot; or &quot;label only&quot;) instead of silently vanishing. Fixes the &quot;Speaker no longer exists&quot; toast when you deep-link from the Transcript Reader&apos;s chip menu.</li>
+                    <li><b>Me / real-name consolidation banner</b> — older sessions that predate the v0.9.6 identity merge show both &quot;Me&quot; and your system name as separate speakers. The Speaker Editor now detects the split and offers a one-click Consolidate (with 5-second Undo) that rewrites the transcript to unify them. Voice store is untouched, so other sessions still read correctly.</li>
+                    <li><b>Under the hood</b> — pipeline.log now records top-3 similarity scores for every diarization cluster, for future threshold tuning. Settings → About → Match diagnostics has an Export button that writes a scrubbed NDJSON to your Downloads folder (scores only, no names, no transcripts, no audio).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.30/MiniGranola-v0.9.30.dmg"
+                length="8104087"
+                type="application/octet-stream"
+                sparkle:edSignature="bC/VRhljRMDn2EvDVYfQiICTGuJRFbM1VxrYS155w8SZVhw8ZAXSEstQJqzIM5HFHarCSa59WiA+3Brg5+71Cw==" />
+        </item>
+        <item>
             <title>Version 0.9.28</title>
             <pubDate>Tue, 21 Apr 2026 11:05:00 +0000</pubDate>
             <sparkle:version>0.9.28</sparkle:version>
