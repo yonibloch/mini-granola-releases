@@ -6,6 +6,29 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.26</title>
+            <pubDate>Tue, 21 Apr 2026 00:17:10 +0000</pubDate>
+            <sparkle:version>0.9.26</sparkle:version>
+            <sparkle:shortVersionString>0.9.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.26 — cross-session rename / forget / merge (A2)</h3>
+                <p>Rename, Forget, and Merge in the Speakers Library now change every past meeting where the speaker appears — not just the voice store.</p>
+                <ul>
+                    <li><b>Cross-session rename/forget/merge</b> — cascade updates across transcripts + meeting titles.</li>
+                    <li><b>7-second undo</b> with a ring-timer toast; everything rolls back byte-identical.</li>
+                    <li><b>Smart confirmation</b> — always ask before touching past meetings; "Don't ask again under 20 meetings" opt-in for small fixes.</li>
+                    <li><b>Inline row progress</b> while the cascade runs; other library rows stay interactive.</li>
+                    <li><b>APFS copy-on-write snapshots</b> for durable, free (~0 bytes) undo backups.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.26/MiniGranola-v0.9.26.dmg"
+                length="6636610"
+                type="application/octet-stream"
+                sparkle:edSignature="3QQrn+0LDodtwV/ysrpvwo0+xZzGfMsYbXj1E9dlzSVvEf+sJoYCj5qiPaXf1ceCmUPxYdk22cgvb4zf/cR4DA==" />
+        </item>
+        <item>
             <title>Version 0.9.25</title>
             <pubDate>Mon, 20 Apr 2026 21:00:00 +0000</pubDate>
             <sparkle:version>0.9.25</sparkle:version>
