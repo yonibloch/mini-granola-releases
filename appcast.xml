@@ -6,6 +6,27 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.34</title>
+            <pubDate>Wed, 22 Apr 2026 16:06:07 +0000</pubDate>
+            <sparkle:version>0.9.34</sparkle:version>
+            <sparkle:shortVersionString>0.9.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.34 — richer Speakers Library + locked avatar color</h3>
+                <ul>
+                    <li><b>Every utterance is a sample now.</b> Open a speaker in the Library and you see every sentence they contributed across all sessions — newest first, each row playable with the correct time range. Used to be a single 5-second enrollment clip; now it's the real catalogue.</li>
+                    <li><b>Real waveforms.</b> The bar charts next to each sample are actual audio, not a hash of the row id pretending to be audio. Computed on the fly the first time you open a speaker (a subtle shimmer shows up while it works), then cached so re-opens are instant.</li>
+                    <li><b>Avatar colors stay put on rename.</b> Renaming "Yoni" → "Yoni Bloch" no longer shifts the hue across Library, Transcript Reader, Meeting Library, or menu-bar popover. Color locks to whatever you were seeing before the rename. Undo preserves it too.</li>
+                    <li><b>"Me" identity is durable.</b> If you ever rename your own voice profile to something other than your macOS login name, the "Me" labelling across transcripts keeps working correctly. Previously this silently broke.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.34/MiniGranola-v0.9.34.dmg"
+                length="8216327"
+                type="application/octet-stream"
+                sparkle:edSignature="V4t9OC6F2unt4r3xKQuMWK7r1Ld5g+/9o81eUM/3XSMVDme8ZlvTsEcCgW5cav0ayhfvEHYcnVCMnOqaF0g9BA==" />
+        </item>
+        <item>
             <title>Version 0.9.33</title>
             <pubDate>Tue, 21 Apr 2026 18:30:00 +0000</pubDate>
             <sparkle:version>0.9.33</sparkle:version>
