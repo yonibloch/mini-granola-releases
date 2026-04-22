@@ -6,6 +6,26 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.35</title>
+            <pubDate>Wed, 22 Apr 2026 17:45:00 +0000</pubDate>
+            <sparkle:version>0.9.35</sparkle:version>
+            <sparkle:shortVersionString>0.9.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.35 — faster, more useful speaker samples</h3>
+                <p>Follow-up to v0.9.34 based on real-world use.</p>
+                <ul>
+                    <li><b>No more sub-second "uh-huh" samples.</b> The per-utterance list now skips anything under 1.5s — these were real transcript segments but useless as voice samples. "Yes, that's right"-class responses still show up.</li>
+                    <li><b>No more freeze on select.</b> A prolific speaker could generate hundreds of transcript segments, and hydrating peaks for all of them on select froze the UI. Now capped at the 50 newest meaningful utterances per speaker.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.35/MiniGranola-v0.9.35.dmg"
+                length="8216322"
+                type="application/octet-stream"
+                sparkle:edSignature="wvpfyqL6dicGhPJYcHeqgZmu9eDByl2+Bx6Nd9qhePxmFrHs2T0VQ7nor8l7Yn5RYciPSKH/f6MssnnKShSzBw==" />
+        </item>
+        <item>
             <title>Version 0.9.34</title>
             <pubDate>Wed, 22 Apr 2026 16:06:07 +0000</pubDate>
             <sparkle:version>0.9.34</sparkle:version>
