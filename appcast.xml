@@ -6,6 +6,24 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.36</title>
+            <pubDate>Wed, 22 Apr 2026 18:10:00 +0000</pubDate>
+            <sparkle:version>0.9.36</sparkle:version>
+            <sparkle:shortVersionString>0.9.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.36 — row-click fix in Speakers Library</h3>
+                <ul>
+                    <li><b>Clicking anywhere on a speaker row now selects them.</b> Previously the empty space between the name and the Play button didn't register — you had to click directly on the name or the avatar.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.36/MiniGranola-v0.9.36.dmg"
+                length="8220673"
+                type="application/octet-stream"
+                sparkle:edSignature="VwsupwFHoCJftuthf9wVjax2ROehe5oAlccJaMWfL1T+U3ClHH+/hpNu4/OcRZjd4BqdkdXpJGVicTeZrpy6CQ==" />
+        </item>
+        <item>
             <title>Version 0.9.35</title>
             <pubDate>Wed, 22 Apr 2026 17:45:00 +0000</pubDate>
             <sparkle:version>0.9.35</sparkle:version>
