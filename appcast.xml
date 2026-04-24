@@ -6,6 +6,23 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.51</title>
+            <pubDate>Fri, 24 Apr 2026 19:15:00 +0000</pubDate>
+            <sparkle:version>0.9.51</sparkle:version>
+            <sparkle:shortVersionString>0.9.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.51 — Dev mode</h3>
+                <p>Settings → About gains a <b>Developer</b> section with a <b>Dev mode</b> toggle. When on, Mini-Granola surfaces a Dock icon and appears in Cmd+Tab. Production behavior is unchanged when off (the default).</p>
+                <p>This lets UI-automation tools (like Claude) see and drive the Settings, Speakers Library, Meetings Library, and Transcript Reader windows for autonomous visual testing. No change to the transcription pipeline.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.51/MiniGranola-v0.9.51.dmg"
+                length="8497710"
+                type="application/octet-stream"
+                sparkle:edSignature="Wq6KqALdzZz4u3Mpo2cmj9qlS/SKTHBKs7S4SRbiUt1vpUG/MPeHM0pZZ/haNa39qOtFN3pYH6/qt12RLZr2Bg==" />
+        </item>
+        <item>
             <title>Version 0.9.50</title>
             <pubDate>Fri, 24 Apr 2026 18:36:18 +0000</pubDate>
             <sparkle:version>0.9.50</sparkle:version>
