@@ -6,6 +6,35 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.49</title>
+            <pubDate>Fri, 24 Apr 2026 14:33:44 +0000</pubDate>
+            <sparkle:version>0.9.49</sparkle:version>
+            <sparkle:shortVersionString>0.9.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.49 — Auto-salvage unfinished recordings</h3>
+                <ul>
+                    <li><b>Recording lost on crash/kill? Not anymore.</b> If the app is terminated mid-recording (force-quit, power loss, OS update), the Meeting Library now shows a banner on next launch: <b>Process</b> / <b>Ignore</b> / <b>Remove</b>.</li>
+                    <li>Short hotkey misfires (&lt; 5s) auto-delete silently.</li>
+                </ul>
+                <h3>Also in this release (since v0.9.36)</h3>
+                <ul>
+                    <li><b>No Diarization mode (v0.9.48)</b> — a third transcription option for mic-only recordings, dictation, and group calls where per-speaker ID isn't worth the clutter. Single-column transcript, no SPEAKER_XX labels.</li>
+                    <li><b>Me/Them mode (v0.9.46)</b> — binary you-vs-everyone-else split. Best for group calls where voice-profile matching isn't reliable. New global setting, new per-session re-process option.</li>
+                    <li><b>Three-way Re-process menu</b> in the Meeting Library — flip any session between Full diarization / Me-Them / No-labels with a checkmark on the current mode.</li>
+                    <li><b>Accurate "Transcript ready" copy</b> — Me/Them sessions now read "Me + N others" instead of "2 speakers" (the old count was misleading for 3+ person calls).</li>
+                    <li><b>Word-level sync for local recordings</b> via Soniox re-process upgrade (v0.9.47) — fixes the highlight drift on long turns in WhisperKit-transcribed sessions.</li>
+                    <li><b>Pre-v0.9.46 recordings no longer silently vanish</b> if a meta.json field is missing (v0.9.48 defensive decode).</li>
+                    <li><b>"Re-process as Me/Them" no longer available on mic-only sessions</b> — the button was a dead-end that burned Soniox credits for no result.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.49/MiniGranola-v0.9.49.dmg"
+                length="8486949"
+                type="application/octet-stream"
+                sparkle:edSignature="ueB6DmUhWeEpGEBP0+NgwybUBWoIyjxIA0IA0zT1T1a5InRkEb453Rpe/WrT9MoEuUV4PHnKtnnzBH3IL4dXAQ==" />
+        </item>
+        <item>
             <title>Version 0.9.36</title>
             <pubDate>Wed, 22 Apr 2026 18:10:00 +0000</pubDate>
             <sparkle:version>0.9.36</sparkle:version>
