@@ -6,6 +6,28 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.52</title>
+            <pubDate>Fri, 24 Apr 2026 22:19:33 +0000</pubDate>
+            <sparkle:version>0.9.52</sparkle:version>
+            <sparkle:shortVersionString>0.9.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.52 — UX cleanup round 1</h3>
+                <p>Three audit-driven fixes to the Settings, Transcript Reader, and Meeting Library:</p>
+                <ul>
+                    <li><b>Google Calendar status</b> no longer shows the placeholder string "Connected as calendar connected" — now displays your account email when known, plain "Connected" otherwise.</li>
+                    <li><b>Transcript Reader playback bar</b> is now a proper sticky footer with a divider; previously it floated as an overlay and could occlude transcript turns.</li>
+                    <li><b>"Open transcript" button</b> shows a spinner during the 1–3s freeze on Dropbox-backed sessions and gates double-clicks. Earlier no-feedback behavior made it easy to click twice.</li>
+                </ul>
+                <p>No change to the transcription pipeline.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.52/MiniGranola-v0.9.52.dmg"
+                length="8510835"
+                type="application/octet-stream"
+                sparkle:edSignature="Cc/FgX8R8YIfm7g5VtaGvBAM8o/EpWdhbT/MR/6Ya3ypjreUPr77KugsnRqxcqRgANpkfdLGTYhQBsSZ1zJ4AA==" />
+        </item>
+        <item>
             <title>Version 0.9.51</title>
             <pubDate>Fri, 24 Apr 2026 19:15:00 +0000</pubDate>
             <sparkle:version>0.9.51</sparkle:version>
