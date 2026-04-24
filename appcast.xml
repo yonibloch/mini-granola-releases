@@ -6,6 +6,29 @@
         <description>Release notes for Mini-Granola</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.50</title>
+            <pubDate>Fri, 24 Apr 2026 18:36:18 +0000</pubDate>
+            <sparkle:version>0.9.50</sparkle:version>
+            <sparkle:shortVersionString>0.9.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>v0.9.50 — Custom vocabulary</h3>
+                <p>Settings → AI Naming now has a <b>Custom vocabulary</b> field — a comma-separated list of names, company names, and jargon the app should recognize and spell correctly.</p>
+                <ul>
+                    <li><b>Transcription gets it right.</b> Your vocabulary is passed to Soniox as context, so "Eko" stops coming back as "echo" or "EchoFile". Works across Hebrew/English code-switching.</li>
+                    <li><b>AI meeting titles too.</b> The title generator sees the vocabulary in its system prompt, so proper nouns appear correctly in your meeting names (e.g. "Eko Prototypes Setup" instead of "Echo Prototypes Setup").</li>
+                    <li><b>Also applied to local WhisperKit transcription</b> for non-Hebrew audio.</li>
+                </ul>
+                <p>Type words separated by commas (don't use commas inside term names). Press return or click away to save — your draft is kept until committed, so closing Settings won't silently drop your edits.</p>
+                <p><b>Privacy:</b> the vocabulary term list is never shipped to Console.app logs — it lives only in the on-disk session log and in the Soniox/LLM requests themselves.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/yonibloch/mini-granola-releases/releases/download/v0.9.50/MiniGranola-v0.9.50.dmg"
+                length="8495999"
+                type="application/octet-stream"
+                sparkle:edSignature="zDuQ7GXv+M3R5YgUsCGcAzyKH/ZZ62Xb8cv/4gwIcyZe/d4xrZZhfvbTWjPnkz3flFYYMQTSkQkX2VkXkSEcBw==" />
+        </item>
+        <item>
             <title>Version 0.9.49</title>
             <pubDate>Fri, 24 Apr 2026 14:33:44 +0000</pubDate>
             <sparkle:version>0.9.49</sparkle:version>
